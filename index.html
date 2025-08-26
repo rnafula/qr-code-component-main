@@ -23,7 +23,7 @@
       background-color: hsl(0, 0%, 100%);
       border-radius:5px ;
       width:22%;
-      margin:100px auto;
+      margin:20px auto;
       padding: 2px;
       box-shadow:inset;
     }
@@ -44,12 +44,12 @@
       border-radius:4px ;
       margin:9px auto;
     }
-    @media(max-width:375px){
+    @media(max-width:600px){
       .main_container{
       background-color: hsl(0, 0%, 100%);
       border-radius:5px ;
       width:90%;
-      margin:100px auto;
+      margin:20px auto;
       padding: 2px;
       box-shadow:inset;
     }
@@ -62,9 +62,36 @@
     }
 
     }
+    nav{
+      background-color: rgb(51, 143, 242);
+      display:flex;
+      gap:10px;
+      text-align: center;
+      padding: 10px;
+
+    }
+    nav>a{
+      display:block;
+      color:white;
+      text-decoration: none;
+      width:20%;
+      padding:2px;
+    }
+    nav>a:hover{
+      border-radius: 7px;
+      background-color: white;
+      color: rgb(51, 143, 242);
+      padding:2px;
+    }
   </style>
 </head>
 <body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Contact</a>
+    <a href="#">About Us</a>
+    <a href="#">Premium</a>
+  </nav>
   <div class="main_container">
     <img src="images/image-qr-code.png" alt="QR image">
     <div>
